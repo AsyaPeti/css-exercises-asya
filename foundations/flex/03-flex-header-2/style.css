@@ -24,7 +24,6 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
-  flex-shrink: 0;
 }
 
 .logo {
@@ -32,7 +31,6 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
-  flex-shrink: 0;
 }
 
 button {
@@ -41,8 +39,6 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
-  height: 2.5em;
-  flex-shrink: 0;
 }
 
 a {
@@ -63,9 +59,4 @@ ul {
   display: flex;
   gap: 16px;
   align-items: center;
-  flex-shrink: 0;
-}
-
-li {
-  flex-shrink: 0;
 }
