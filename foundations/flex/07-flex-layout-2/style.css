@@ -4,7 +4,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .header {
@@ -44,7 +43,7 @@ body {
 }
 
 .main-content {
-  flex-grow: 1;
+  flex: 1;
   display: flex;
 }
 
@@ -68,5 +67,4 @@ a {
   flex-wrap: wrap;
   padding: 48px;
   gap: 32px;
-  align-content: stretch;
 }
