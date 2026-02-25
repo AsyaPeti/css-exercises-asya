@@ -20,9 +20,8 @@ img {
 
 .plants {
   display: flex;
-  justify-content: space-evenly;
-  padding: 48px;
-  align-self: stretch;
+  padding: 32px 0;
+  gap: 52px;
 }
 
 .item {
